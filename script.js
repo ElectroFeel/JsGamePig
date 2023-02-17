@@ -11,11 +11,11 @@ const currentScoreP2 = document.getElementById('current--1');
 const player1 = document.querySelector('.player--0');
 const player2 = document.querySelector('.player--1');
 
-let x = 0;
-let stepScore = 0;
-let playerFlag = false;
-let holdScorePlayer1 = 0;
-let holdScorePlayer2 = 0;
+var x = 0;
+var stepScore = 0;
+var playerFlag = false;
+var holdScorePlayer1 = 0;
+var holdScorePlayer2 = 0;
 
 
 // Drop the Dice
